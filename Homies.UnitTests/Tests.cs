@@ -32,7 +32,7 @@ namespace Homies.Tests.Controllers
 
             _context = new HomiesDbContext(options);
 
-            // Seed data test
+            // Seed data
             SeedDatabase();
 
             _controller = new EventController(_context);
